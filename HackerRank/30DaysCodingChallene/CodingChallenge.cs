@@ -11,11 +11,33 @@ namespace HackerRank._30DaysCodingChallene
         public void Day1()
         {
 
-
         }
 
-        
+
+
     }
+
+    //Day 2
+    public class Result
+    {
+        public static void solve(double meal_cost, int tip_percent, int tax_percent)
+        {
+            double a = (double)tip_percent / 100;
+            double b = (double)tax_percent / 100;
+            double ans = meal_cost + (a * meal_cost) + (b * meal_cost);
+            Console.WriteLine("a =" + a);
+            var convertedAnswer = Math.Round(ans, MidpointRounding.AwayFromZero);
+
+
+            Console.WriteLine(convertedAnswer);
+
+
+        }
+    }
+
+    /*End of day 2*/
+
+
     //Day 4
     public  class Person
     {

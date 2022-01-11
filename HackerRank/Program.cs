@@ -11,6 +11,16 @@ namespace HackerRank._30DaysCodingChallene
     {
         static void Main(string[] args)
         {
+            //Day 2
+            double meal_cost = Convert.ToDouble(Console.ReadLine().Trim());
+
+            int tip_percent = Convert.ToInt32(Console.ReadLine().Trim());
+
+            int tax_percent = Convert.ToInt32(Console.ReadLine().Trim());
+
+            Result.solve(meal_cost, tip_percent, tax_percent);
+            /*End of Day 2*/
+
             //Day 4
             int T = int.Parse(Console.In.ReadLine());
             for (int i = 0; i < T; i++)
