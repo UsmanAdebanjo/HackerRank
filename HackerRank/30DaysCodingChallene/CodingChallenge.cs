@@ -110,4 +110,27 @@ namespace HackerRank._30DaysCodingChallene
 
         }
     }
+    /* Day 14*/
+    class Difference
+    {
+        private int[] elements;
+        public int maximumDifference;
+
+        // Add your code here
+        Difference(int[] elements)
+        {
+
+            this.elements = elements;
+        }
+        public int computeDifference(int[] elements)
+        {
+
+            maximumDifference = elements.Max() - elements.Min();
+
+
+            return maximumDifference;
+        }
+
+    }
+
 }
